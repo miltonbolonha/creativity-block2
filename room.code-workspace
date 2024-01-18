@@ -5,8 +5,12 @@
         "path": "./public"
       },
       {
-        "name": "Código",
+        "name": "Website",
         "path": "./src"
+      },
+      {
+        "name": "Raiz",
+        "path": "./"
       }
     ],
     "settings": {
