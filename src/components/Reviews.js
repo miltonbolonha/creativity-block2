@@ -7,7 +7,7 @@ import GradientBorder from "./GradientBorder";
 
 const Card = ({children, title, info, image = undefined}) => {
     return (
-        <Stack  rounded="xl" w="full"  pos="relative" p="6" spacing={0}>
+        <Stack  rounded="xl" w="full" pos="relative" p="6" spacing={0}>
             <GradientBorder variant="gradient-border-gray"/>
             <Avatar src={image} w="75px" h="75px" position="absolute" top="-8" left="5" borderWidth={1} borderColor="gray">
                 
@@ -41,7 +41,7 @@ const Card = ({children, title, info, image = undefined}) => {
 export default function Reviews() {
 
     return (
-        <Box color="white" maxW={"80%"} overflowX="auto" className="noscroll">
+        <Box color="white"  w="full" maxW={'1250px'} overflowX="auto" className="noscroll">
             <Box mb="14">
                 <Box className="gradient" textAlign="center" fontSize="49.93px" letterSpacing="-2px">Look what our clients have to say about us!</Box>
             </Box>

@@ -57,7 +57,7 @@ export default function Teams() {
     const [active, setActive] = useState(0)
 
     return (
-        <Box color="white" width="80%" overflow="visible" mb="20">
+        <Box color="white" width="full" maxW={'1250px'} overflow="visible" mb="20">
             <Box mb="10">
                 <Box className="gradient" textAlign="center" fontSize="49.93px" letterSpacing="-2px">Meet the team</Box>
             </Box>

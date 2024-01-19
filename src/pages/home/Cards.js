@@ -53,7 +53,7 @@ const Card = ({ icon="", title="", description="", actionText="", children = und
     )
 }
 
-const Benefits = (props: any) => {
+const Benefits = (props) => {
     return (
         <Stack gap="6">
             <Box className="gradient" fontSize={{base: "20.74px", md: "30px"}} textAlign="center" letterSpacing={{base: "-1.38px",md: "-2px"}}>Benefits</Box>
@@ -66,7 +66,7 @@ const Benefits = (props: any) => {
 
 export default function Cards(){
     return (
-        <SimpleGrid w="full" maxW="80%" gap="16" columns={[1,1,1,1,2,2,2]} id="services">
+        <SimpleGrid w="full" maxW="1250px" gap="16" columns={[1,1,1,1,2,2,2]} id="services">
             <Box>
                 <Card 
                     href="/cro"

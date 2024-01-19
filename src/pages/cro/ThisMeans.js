@@ -9,7 +9,7 @@ import fill from "../../assets/icons/file-image-fill.svg"
 
 export default function CRO_ThisMeans(){
     return (
-        <Stack id="benefits" color="white" width="80%" overflow="visible" spacing={10}>
+        <Stack id="benefits" color="white" w="full" maxW={'1250px'} overflow="visible" spacing={10}>
             <Stack spacing={10}>
                 <Box  className="gradient" letterSpacing={{base: "-2px", md:"-2.6px"}} fontWeight={600} fontSize={{base: "33px", md:"56px"}} textAlign="center" lineHeight={{base: "38px",md:"62px"}} >
                 This means that when working<p></p> with us you'll have

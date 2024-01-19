@@ -40,7 +40,7 @@ export const QAForm = () => {
     )
 }
 
-export default function Footer(props: any) {
+export default function Footer(props) {
     return (
         <Box>
             {props.children}
@@ -50,12 +50,12 @@ export default function Footer(props: any) {
                 </Box>
             </VStack>
             <Box backdropFilter="auto" backdropBlur={"6px"} borderTopWidth={1}>
-                <Box maxW="80%" m="auto" py="20">
+                <Box maxW="1250px" m="auto" py="20">
                     <QAForm/>
                 </Box>
             </Box>
             <Box backdropFilter="auto" backdropBlur={"6px"} borderTopWidth={1} borderColor="rgba(255,255,255,0.5)">
-                <HStack maxW="80%" m="auto" py="6">
+                <HStack maxW="1250px" m="auto" py="6">
                     <HStack spacing={{base: 3, md: 6}} flex="1">
                         <Logo />
                         <HStack spacing={{base: 0, md: 0}}>

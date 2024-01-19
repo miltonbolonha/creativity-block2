@@ -20,7 +20,7 @@ export default function CROProjects() {
     const [active, setActive] = useState(0)
 
     return (
-        <Box color="white" width="80%" overflow="visible" mb="20">
+        <Box color="white" w="full" maxW={'1250px'} overflow="visible" mb="20">
             <Box mb="10">
                 <Box className="gradient" textAlign="center" fontSize="49.93px" letterSpacing="-2px">Other Projects</Box>
             </Box>

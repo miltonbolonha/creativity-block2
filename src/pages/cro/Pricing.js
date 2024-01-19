@@ -6,7 +6,7 @@ import arrow_right_black from "../../assets/icons/arrow-right-black.svg";
 
 export default function CROPricing(){
     return (
-        <Stack w="80%" spacing={8} id="pricing">
+        <Stack w="full" maxW={'1250px'} spacing={8} id="pricing">
             <Box>
                 <Box className="gradient" textAlign="center" fontSize="49.93px" letterSpacing="-2px" fontWeight={600}>Pricing</Box>
             </Box>
