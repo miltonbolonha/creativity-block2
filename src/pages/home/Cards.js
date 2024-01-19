@@ -66,7 +66,7 @@ const Benefits = (props) => {
 
 export default function Cards(){
     return (
-        <SimpleGrid w="full" maxW="80%" gap="16" columns={[1,1,1,1,2,2,2]} id="services">
+        <SimpleGrid w="full" maxW="1250px" gap="16" columns={[1,1,1,1,2,2,2]} id="services">
             <Box>
                 <Card 
                     href="/cro"

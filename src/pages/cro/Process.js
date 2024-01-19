@@ -3,7 +3,7 @@ import process from "../../assets/CRO/process.png"
 
 export function CROProcessx(){
     return (
-        <Box color="white" w={"80%"} overflowX="auto" className="noscroll">
+        <Box color="white" w="full" maxW={'1250px'} overflowX="auto" className="noscroll">
              <Box mb="20" className="gradient" letterSpacing={{base: "-2px", md:"-2.6px"}} fontWeight={600} fontSize={{base: "33px", md:"56px"}} textAlign="center" lineHeight={{base: "38px",md:"64px"}} >
                 The process that will allow us<p></p> to help your business growing
             </Box>

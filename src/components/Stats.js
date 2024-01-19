@@ -6,7 +6,7 @@ export default function Stats() {
     const fontDescription = {base: "12px", md: "16px"}
 
     return (
-        <Box color="white" width="80%" overflow="visible">
+        <Box color="white"  w="full" maxW={'1250px'}  overflow="visible">
             <Box mb="10">
                 <Box className="gradient" textAlign="center" fontSize="49.93px" letterSpacing="-2px">Our team members have helped in making</Box>
             </Box>

@@ -4,7 +4,7 @@ import arrow_right from "../../assets/icons/arrow-right.svg";
 
 export default function SMMFaq(){
     return (
-        <SimpleGrid columns={[1,1,1,2,2]} w="80%" alignItems="flex-start" gap="10">
+        <SimpleGrid columns={[1,1,1,2,2]} w="full" maxW={'1250px'}  alignItems="flex-start" gap="10">
             <Stack maxW="480px" gap="12">
                 <Box className="gradient" fontSize={"68.64px"} lineHeight={"77.29px"}>Frequently Asked Questions</Box>
                 <Button w="fit-content" variant="unstyled" as={Link} to="/cro#banner" bg="linear-gradient(93.39deg, #EB4715 11.67%, #F9A01B 109.49%);" p="4" py="6" gap="3" fontSize="14px" flexDir="row" display="flex" fontWeight={700}>

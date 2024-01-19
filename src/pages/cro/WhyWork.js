@@ -6,7 +6,7 @@ import arrow_right from "../../assets/icons/arrow-right.svg";
 
 export default function CROWhyWork(){
     return (
-        <Stack color="white" width="80%" overflow="visible" spacing={10}>
+        <Stack color="white" w="full" maxW={'1250px'}  overflow="visible" spacing={10}>
             <Stack spacing={10}>
                 <Box className="gradient" textAlign="center" fontSize="49.93px" letterSpacing="-2px">Why work with us?</Box>
                 <Stack bg="linear-gradient(93.39deg, #EB4715 11.67%, #F9A01B 109.49%);"  width="100%"  borderRadius="12px" p="16" alignItems="flex-start" gap={16}>

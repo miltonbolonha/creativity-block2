@@ -16,7 +16,7 @@ const NavButton = ({children}) => (
 
 export default function SMMNavbar(){
     return (
-        <HStack w="80%" m="auto" bg="#2F2F2F" borderRadius={"19px"} mt="37px" p="3" py="2" border="0.2px solid rgba(255,255,255,0.2)">
+        <HStack w="full" maxW={'1250px'} m="auto" bg="#2F2F2F" borderRadius={"19px"} mt="37px" p="3" py="2" border="0.2px solid rgba(255,255,255,0.2)">
             <Box flex="1">
                 <Logo text="Creativity Block"/>
             </Box>
