@@ -53,7 +53,7 @@ const Card = ({ icon="", title="", description="", actionText="", children = und
     )
 }
 
-const Benefits = (props: any) => {
+const Benefits = (props) => {
     return (
         <Stack gap="6">
             <Box className="gradient" fontSize={{base: "20.74px", md: "30px"}} textAlign="center" letterSpacing={{base: "-1.38px",md: "-2px"}}>Benefits</Box>

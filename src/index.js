@@ -6,7 +6,7 @@ import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
 import { theme } from './styles/theme';
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById('root')
 );
 
 root.render(

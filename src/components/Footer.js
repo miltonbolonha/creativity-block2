@@ -40,7 +40,7 @@ export const QAForm = () => {
     )
 }
 
-export default function Footer(props: any) {
+export default function Footer(props) {
     return (
         <Box>
             {props.children}
